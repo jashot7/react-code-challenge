@@ -1,0 +1,27 @@
+/**
+  This is where we will provide any top level overrides for bootstrap so that they're all in one
+  'customize boostrap' file. In a real project, if we were customizing bootstrap this would
+  be split up into multiple custom sass files we would just utilize the specific parts of
+  bootstrap we wish to customize (rather that simply importing all of bootstrap).
+*/
+
+// Required
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+// Optional (These are included for example's sake.)
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/code";
+@import "~bootstrap/scss/grid";
+
+$red: #007700;
+
+$theme-colors: (
+  "primary": #0074d9,
+  "danger": #ff4136,
+  "custom-color": #900
+);
+
